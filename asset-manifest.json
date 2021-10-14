@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pogoda-vol-2/static/css/main.f96ac428.chunk.css",
+    "main.js": "/Pogoda-vol-2/static/js/main.f9121107.chunk.js",
+    "main.js.map": "/Pogoda-vol-2/static/js/main.f9121107.chunk.js.map",
+    "runtime-main.js": "/Pogoda-vol-2/static/js/runtime-main.0f312cbb.js",
+    "runtime-main.js.map": "/Pogoda-vol-2/static/js/runtime-main.0f312cbb.js.map",
+    "static/js/2.1aa96a46.chunk.js": "/Pogoda-vol-2/static/js/2.1aa96a46.chunk.js",
+    "static/js/2.1aa96a46.chunk.js.map": "/Pogoda-vol-2/static/js/2.1aa96a46.chunk.js.map",
+    "index.html": "/Pogoda-vol-2/index.html",
+    "static/css/main.f96ac428.chunk.css.map": "/Pogoda-vol-2/static/css/main.f96ac428.chunk.css.map",
+    "static/js/2.1aa96a46.chunk.js.LICENSE.txt": "/Pogoda-vol-2/static/js/2.1aa96a46.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Pogoda-vol-2/static/media/bg.f7c59d87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f312cbb.js",
+    "static/js/2.1aa96a46.chunk.js",
+    "static/css/main.f96ac428.chunk.css",
+    "static/js/main.f9121107.chunk.js"
+  ]
+}
