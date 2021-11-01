@@ -8,7 +8,7 @@ function Info({ choosenCity }) {
 		["Godzina pomiaru", "", `${choosenCity.godzina_pomiaru}:00`],
 	];
 	const infoListElements = infoList.map((element) => (
-		<li>
+		<li key={element[0]}>
 			<span className='info-list__name'>{element[0]} - </span>
 			<span className='info-list__info'>
 				{element[2]} {element[1]}

@@ -18,6 +18,9 @@ function Form() {
 		let x = dataAPI.filter((item) => item.stacja === city);
 		x = x[0];
 		setSelectedCity(x);
+
+		const inputElement = document.getElementById("city-input");
+		inputElement.value = "";
 	};
 	useEffect(() => {
 		fetch(API)
