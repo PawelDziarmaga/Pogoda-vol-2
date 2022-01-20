@@ -1,6 +1,6 @@
 # Weather-app
 
-https://paweldziarmaga.github.io/Pogoda-vol-2/
+https://paweldziarmaga.github.io/Weather-app/
 
 Application showing the current weather for cities in Poland.
 
