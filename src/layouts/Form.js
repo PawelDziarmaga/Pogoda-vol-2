@@ -9,19 +9,26 @@ function Form() {
 	const [dataAPI, setDataAPI] = useState([]);
 	const [selectedCity, setSelectedCity] = useState("");
 
+	//The function assigns the selected city from the input to the variable "city"
 	const chandleChange = (e) => {
 		const cityInput = e.target.value;
 		setCity(cityInput);
 	};
+
 	const chandleClick = (e) => {
 		e.preventDefault();
-		let x = dataAPI.filter((item) => item.stacja === city);
-		x = x[0];
-		setSelectedCity(x);
 
+		//Finds a given record in the API on the name assigned to the "city" variable.
+		let x = dataAPI.filter((item) => item.stacja === city);
+
+		//Assigns all information to the "selectedCity" variable
+		setSelectedCity(x[0]);
+
+		//Clearing the input window
 		const inputElement = document.getElementById("city-input");
 		inputElement.value = "";
 	};
+
 	useEffect(() => {
 		fetch(API)
 			.then((res) => {

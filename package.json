@@ -1,6 +1,6 @@
 {
-	"name": "app",
-	"homepage": "https://paweldziarmaga.github.io/Pogoda-vol-2/",
+	"name": "weather-app",
+	"homepage": "https://paweldziarmaga.github.io/Weather-app/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
